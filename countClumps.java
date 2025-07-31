@@ -1,5 +1,5 @@
 public int countClumps(int[] nums) {
-    
+
     int count = 0;
     int num2 = 0;
 
@@ -11,7 +11,6 @@ public int countClumps(int[] nums) {
                 num2 = 1;
             }
         } else {
-
             num2 = 0;
         }
     }
