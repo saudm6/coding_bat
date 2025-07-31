@@ -1,16 +1,16 @@
 public int[] pre4(int[] nums) {
 
-    int pos = nums.length;
+    int position = nums.length;
     for (int i = 0; i < nums.length; i++) {
         if (nums[i] == 4) {
-            pos = i;
+            position = i;
             break;
         }
     }
 
-    int[] final_num = new int[pos];
+    int[] final_num = new int[position];
 
-    for (int i = 0; i < pos; i++) {
+    for (int i = 0; i < position; i++) {
         final_num[i] = nums[i];
     }
     return final_num;
