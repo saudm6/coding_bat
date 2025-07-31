@@ -1,4 +1,4 @@
-publipublic int centeredAverage(int[] nums) {
+public int centeredAverage(int[] nums) {
     int check = nums.length;
     int total = 0;
     int min = nums[0];
