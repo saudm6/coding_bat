@@ -7,9 +7,9 @@ public int[] fix34(int[] nums) {
             for (; j < nums.length; j++) {
                 if (nums[j] == 4) {
 
-                    int tmp     = nums[i + 1];
+                    int temp = nums[i + 1];
                     nums[i + 1] = nums[j];
-                    nums[j]     = tmp;
+                    nums[j] = temp;
                     j++;
                     break;
                 }
